@@ -1,4 +1,4 @@
-# 📱 Phone Shop AI – Offline RAG Chatbot
+# 📱 Phone Shop AI - Offline RAG Chatbot
 
 An offline Retrieval-Augmented Generation (RAG) chatbot built with Python to help retail employees quickly search and understand internal documentation.
 
@@ -9,7 +9,7 @@ The application uses semantic search (FAISS) and a local Large Language Model (L
 ## Features
 
 - 🔍 Semantic search using FAISS
-- 🤖 Fully local LLM inference (no API required)
+- 🤖 Fully local LLM inference (no API/Costing required)
 - 📄 Supports multiple PDF documents
 - 💬 Desktop GUI built with Tkinter
 - 📚 Displays document sources for every answer
