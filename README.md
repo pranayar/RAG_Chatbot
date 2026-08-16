@@ -1,4 +1,4 @@
-# 📱 Phone Shop AI — Offline RAG Chatbot
+# 📱 Phone Shop AI - Offline RAG Chatbot
 
 An **offline Retrieval-Augmented Generation (RAG) chatbot** built with Python to help retail employees quickly search and understand internal documentation.
 
@@ -14,14 +14,14 @@ The system is designed for environments where **privacy, offline operation, low 
 
 ![Phone Shop AI Demo](./Demo%20GIF.gif)
 
-> Ask a question about internal documentation and receive a locally generated answer with relevant source references — without sending data to an external API.
+> Ask a question about internal documentation and receive a locally generated answer with relevant source references - without sending data to an external API.
 
 ---
 
 ## ✨ Features
 
 * 🔍 **Semantic search** using FAISS
-* 🤖 **Fully local LLM inference** — no external API or API costs
+* 🤖 **Fully local LLM inference** - no external API or API costs
 * 📄 Supports multiple PDF documents
 * 🧠 **Retrieval-Augmented Generation (RAG)** architecture
 * 💬 Desktop GUI built with Tkinter
@@ -312,7 +312,7 @@ Response
 
 ### Benefits
 
-* 🔒 **Privacy** — documents remain on the local machine
+* 🔒 **Privacy** - documents remain on the local machine
 * 🌐 **No internet required**
 * 💰 **No API costs**
 * ⚡ **Low-latency retrieval**
