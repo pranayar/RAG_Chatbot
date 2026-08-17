@@ -12,7 +12,7 @@ The system is designed for environments where **privacy, offline operation, low 
 
 ### Phone Shop AI in Action
 
-<p align="center"> <img src="./RAG-Demo.gif" alt="Phone Shop AI Demo" width="800" /> </p>
+<p align="center"> <img src="./RAG-Demo.gif" alt="Phone Shop AI Demo" width="900" /> </p>
 
 > Ask a question about internal documentation and receive a locally generated answer with relevant source references - without sending data to an external API.
 
