@@ -18,6 +18,13 @@ The system is designed for environments where **privacy, offline operation, low 
 
 ---
 
+## Motivation
+* While working a part-time job at a mobile shop, I realised employees found it hard to navigate through the portals. Even though there were manuals available, they were too long and not practical. I thought what if we gave these manuals to a chatbot and asked it questions after all the manuals are the heart and soul of the portal. However, it came with a few issues - documents were confidential and could not be shared externally, the shop did not want to spend money and each query incurs a cost.
+* Solution - A local chatbot which executes only on the local system. I said let's take a model (Qwen), give it the documents and execute it using the shop computers resources. This way there is no external cost, the documents are not shared either. Privacy and cost both protected.
+* Once it was completed with a UI, I realised the PDFs were too long for execution with the model on the local computer's limited hardware capabilites. So instead of matching the user queries throughout the manuals, we break it down into chunks of text and find the nearest match which saves time and computing power.
+* Finally it had to be packaged into a user-friendly UI for which I decided to go forward with Tkinter. 
+-------------
+
 ## ✨ Features
 
 * 🔍 **Semantic search** using FAISS
